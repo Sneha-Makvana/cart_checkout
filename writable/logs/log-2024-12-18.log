@@ -1,0 +1,80 @@
+CRITICAL - 2024-12-18 13:02:22 --> ErrorException: Undefined variable $row
+[Method: GET, Route: main]
+in APPPATH\Views\home\main.php on line 12.
+ 1 APPPATH\Views\home\main.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\main.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/main', [], true)
+ 5 APPPATH\Controllers\ProductController.php(12): view('home/main')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->view()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-18 13:02:24 --> ErrorException: Undefined variable $row
+[Method: GET, Route: main]
+in APPPATH\Views\home\main.php on line 12.
+ 1 APPPATH\Views\home\main.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\main.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/main', [], true)
+ 5 APPPATH\Controllers\ProductController.php(12): view('home/main')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->view()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-18 13:03:07 --> ErrorException: Undefined variable $image
+[Method: GET, Route: main]
+in APPPATH\Views\home\main.php on line 13.
+ 1 APPPATH\Views\home\main.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\main.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\main.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/main', [], true)
+ 5 APPPATH\Controllers\ProductController.php(12): view('home/main')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->view()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-18 13:04:01 --> ErrorException: Undefined variable $cart_count
+[Method: GET, Route: main]
+in APPPATH\Views\home\navbar.php on line 41.
+ 1 APPPATH\Views\home\navbar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cart_count', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\navbar.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('home/navbar', null, true)
+ 5 APPPATH\Views\layout.php(13): CodeIgniter\View\View->include('home/navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/main', [], true)
+10 APPPATH\Controllers\ProductController.php(12): view('home/main')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->view()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-18 13:04:02 --> ErrorException: Undefined variable $cart_count
+[Method: GET, Route: main]
+in APPPATH\Views\home\navbar.php on line 41.
+ 1 APPPATH\Views\home\navbar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cart_count', 'C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\navbar.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\home\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('home/navbar', null, true)
+ 5 APPPATH\Views\layout.php(13): CodeIgniter\View\View->include('home/navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\app\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/main', [], true)
+10 APPPATH\Controllers\ProductController.php(12): view('home/main')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->view()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
