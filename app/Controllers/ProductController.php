@@ -15,8 +15,19 @@ class ProductController extends Controller
 
         return view('product/main', $data);
     }
-    public function display()
+
+    public function display($id)
     {
-        return view('product/singleProduct');
+        $productModel = new ProductModel();
+
+        $product = $productModel->find($id);
+
+        if (!$product) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException("Product with ID $id not found.");
+        }
+
+        $data['product'] = $product;
+
+        return view('product/singleProduct', $data);
     }
 }

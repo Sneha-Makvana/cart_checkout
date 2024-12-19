@@ -25,20 +25,16 @@
                         <li class="">
                             <a href="">Products</a>
                         </li>
-                        <li>
-                            <a href="">Add Product</a>
-                        </li>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div class="icons d-flex">
                 <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
-                <a href="#" class="icons-btn d-inline-block"><span class="icon-heart-o"></span></a>
 
-                <a href="cart.php" class="icons-btn d-inline-block bag">
-                    <span class="icon-shopping-bag"></span>
-                    <span class="number" id="cart-count"> </span>
+                <a href="<?= base_url('/cart') ?>" class="icons-btn d-inline-block bag">
+                    <span class="icon-shopping-cart"></span>
+                    <span class="number" id="cart-count">0</span>
                 </a>
 
                 <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
@@ -54,4 +50,24 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
+     function updateCartCount() {
+        $.ajax({
+            url: '<?= base_url('cart/count') ?>',
+            type: 'POST',
+            dataType: 'json',
+            success: function(response) {
+                if (response.status === 'success') {
+                    $('#cart-count').text(response.count);
+                }
+            },
+            error: function() {
+                console.error('Error fetching cart count.');
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        updateCartCount();
+    });
+
 </script>
