@@ -23,7 +23,7 @@
                             <a href="<?= base_url('/main'); ?>">Home</a>
                         </li>
                         <li class="">
-                            <a href="">Products</a>
+                            <a href="<?= base_url('/product/product'); ?>">Products</a>
                         </li>
                         </li>
                     </ul>

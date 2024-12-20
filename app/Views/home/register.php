@@ -1,7 +1,7 @@
 <?= $this->extend('layout'); ?>
 <?= $this->section('content'); ?>
 
-<div class="container py-5 h-100">
+<div class="container py-5 h-100 mb-5">
     <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-lg-8">
             <div class="card shadow-lg">

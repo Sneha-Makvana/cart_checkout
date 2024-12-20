@@ -1,7 +1,7 @@
 <?= $this->extend('layout'); ?>
 <?= $this->section('content'); ?>
 
-<div class="container-fluid">
+<div class="container-fluid mt-5 mb-5">
     <div class="row justify-content-center px-xl-5">
         <div class="col-lg-4 col-md-6 col-sm-8">
             <div class="card border-0 shadow-lg p-4">
@@ -37,14 +37,17 @@
             let formData = new FormData(this);
 
             $.ajax({
-                url: '<?= base_url('/login')?>',
+                url: '<?= base_url('/login') ?>',
                 type: 'POST',
                 data: formData,
                 processData: false,
                 contentType: false,
                 dataType: 'json',
                 success: function(response) {
-                    if (response.status === true) {
+                    if (response.status === 'success') {
+                        if (response.redirect) {
+                            window.location.href = response.redirect;
+                        }
                         $('#message').html('<p class="text-success">' + response.message + '</p>');
                         // window.location.href = "<?= base_url('/main'); ?>";
                     } else if (response.status === 'error') {

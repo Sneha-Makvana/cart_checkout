@@ -1,7 +1,7 @@
 <?= $this->extend('layout'); ?>
 <?= $this->section('content'); ?>
 
-<div class="site-section">
+<div class="site-section mt-5 mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6">

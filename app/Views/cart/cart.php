@@ -1,6 +1,6 @@
 <?= $this->extend('layout'); ?>
 <?= $this->section('content'); ?>
-<div class="site-section">
+<div class="site-section mt-5 mb-5">
     <div class="container">
         <div class="row mb-5">
             <form class="col-md-12" method="post">
@@ -18,19 +18,19 @@
                         </thead>
                         <tbody>
                             <?php if (!empty($cartItems)) : ?>
-                                <?php foreach ($cartItems as $item) : ?>
-                                    <tr data-id="<?= $item['id'] ?>">
+                                <?php foreach ($cartItems as $productId => $item) : ?>
+                                    <tr data-id="<?= $productId ?>">
                                         <td class="product-thumbnail">
                                             <img src="<?= base_url('public/uploads/' . $item['image']) ?>" alt="<?= esc($item['product_name']) ?>" class="img-fluid" style="width: 75px; height: auto;">
                                         </td>
                                         <td class="product-name"><?= esc($item['product_name']) ?></td>
                                         <td class="product-price">$<?= esc($item['price']) ?></td>
                                         <td>
-                                            <input type="number" class="form-control text-center qty-input" value="<?= esc($item['qty']) ?>" min="1">
+                                            <input type="number" class="form-control text-center qty-input" value="<?= esc($item['quantity']) ?>" min="1">
                                         </td>
                                         <td class="product-total">$<?= esc($item['total_price']) ?></td>
                                         <td>
-                                            <button class="btn btn-danger btn-sm remove-btn" data-id="<?= $item['id'] ?>">X</button>
+                                            <button class="btn btn-danger btn-sm remove-btn" data-id="<?= $productId ?>">X</button>
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
@@ -45,6 +45,7 @@
             </form>
         </div>
 
+        <!-- Totals and checkout buttons -->
         <div class="row">
             <div class="col-md-6">
                 <div class="row mb-5">
@@ -66,7 +67,7 @@
                                 <span class="text-black">Subtotal</span>
                             </div>
                             <div class="col-md-6 text-right">
-                                <strong class="text-black cart-subtotal">$ </strong>
+                                <strong class="text-black cart-subtotal">$</strong>
                             </div>
                         </div>
                         <div class="row mb-5">
@@ -74,12 +75,12 @@
                                 <span class="text-black">Total</span>
                             </div>
                             <div class="col-md-6 text-right">
-                                <strong class="text-black cart-total">$ </strong>
+                                <strong class="text-black cart-total">$</strong>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <button class="btn btn-primary btn-lg btn-block" onclick="window.location='<?= base_url('/checkout')?>'">Proceed To Checkout</button>
+                                <button class="btn btn-primary btn-lg btn-block" onclick="window.location='<?= base_url('/checkout') ?>'">Proceed To Checkout</button>
                             </div>
                         </div>
                     </div>
@@ -90,8 +91,6 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-   
-
     function updateCartTotals() {
         $.ajax({
             url: '<?= base_url('cart/totals') ?>',
@@ -117,7 +116,6 @@
             alert('Quantity must be at least 1.');
             return;
         }
-
         $.ajax({
             url: '<?= base_url('cart/update') ?>',
             type: 'POST',
@@ -130,7 +128,6 @@
                 if (response.status === 'success') {
                     $(`tr[data-id="${cartId}"] .product-total`).text(`$${response.newTotalPrice.toFixed(2)}`);
                     updateCartTotals();
-                    updateCartCount();
                 } else {
                     alert(response.message);
                 }
@@ -156,8 +153,6 @@
                 if (response.status === 'success') {
                     $(`tr[data-id="${cartId}"]`).remove();
                     updateCartTotals();
-                    updateCartCount();
-                    alert(response.message);
                 } else {
                     alert(response.message);
                 }
@@ -170,7 +165,6 @@
 
     $(document).ready(function() {
         updateCartTotals();
-        updateCartCount();
     });
 </script>
 <?= $this->endSection(); ?>

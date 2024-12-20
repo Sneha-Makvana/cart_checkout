@@ -8,8 +8,11 @@ class CartModel extends Model
 {
     protected $table = 'cart';
     protected $primaryKey = 'id';
-    protected $allowedFields = [
-        'product_name', 'price', 'image', 'qty', 'total_price'];
+    protected $allowedFields = ['user_id', 'product_id', 'product_name', 'qty', 'image', 'price', 'total_price'];
+
+    public function getCartItems($userId)
+    {
+        return $this->where('user_id', $userId)->findAll();
+    }
 }
 ?>
-

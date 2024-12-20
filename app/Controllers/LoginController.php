@@ -57,7 +57,6 @@ class LoginController extends Controller
 
         return $this->response->setJSON($response);
     }
-
     public function login()
     {
         $response = ['status' => false, 'message' => ''];
@@ -94,6 +93,12 @@ class LoginController extends Controller
 
                 $response['status'] = true;
                 $response['message'] = 'Login successful!';
+
+                return $this->response->setJSON([
+                    'status' => 'success',
+                    'message' => 'Login successful! Redirecting to checkout...',
+                    'redirect' => base_url('checkout')
+                ]);
             } else {
                 $response['message'] = 'Invalid email or password!';
             }
@@ -102,12 +107,13 @@ class LoginController extends Controller
         return $this->response->setJSON($response);
     }
 
+
     public function logout()
     {
         $session = session();
         $session->destroy();
 
         delete_cookie('user_email');
-        return redirect()->to(base_url('login'));
+        return redirect()->to(base_url('/main'));
     }
 }
