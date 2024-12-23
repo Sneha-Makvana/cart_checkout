@@ -2,7 +2,7 @@
 <?= $this->section('content'); ?>
 
 <div class="container mt-5 mb-5">
-    <div class="row mb-3">
+    <div class="row mb-5">
         <div class="col-md-4">
             <input type="text" id="search-box" class="form-control" placeholder="Search products...">
         </div>
@@ -35,10 +35,19 @@
         $.ajax({
             url: '<?= base_url('product/fetchProducts') ?>',
             method: 'POST',
-            data: { search, category, page },
+            data: {
+                search,
+                category,
+                page
+            },
             dataType: 'json',
             success: (response) => {
-                const { products, total_count, current_page, per_page } = response;
+                const {
+                    products,
+                    total_count,
+                    current_page,
+                    per_page
+                } = response;
                 renderProducts(products);
                 renderPagination(total_count, current_page, per_page);
             },
@@ -97,7 +106,7 @@
 
         $('#search-box').on('input', () => fetchProducts());
         $('#category-filter').on('change', () => fetchProducts());
-        $(document).on('click', '#pagination .page-link', function (e) {
+        $(document).on('click', '#pagination .page-link', function(e) {
             e.preventDefault();
             const page = $(this).data('page');
             fetchProducts(page);

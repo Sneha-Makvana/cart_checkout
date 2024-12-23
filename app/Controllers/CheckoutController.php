@@ -76,6 +76,7 @@ class CheckoutController extends Controller
                 'order_id' => $orderId,
                 'message' => 'Order placed successfully!',
             ]);
+
             if (empty($cartItems)) {
                 return $this->response->setJSON([
                     'status' => 'error',
@@ -90,3 +91,4 @@ class CheckoutController extends Controller
         }
     }
 }
+?>

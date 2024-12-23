@@ -48,7 +48,7 @@
             },
             dataType: 'json',
             success: function(response) {
-                if (response.status === 'success') {
+                if (response.status === 'success') {    
                     // $('#success-message').text(response.message).show();
                     $("#success-message").html('<p class="text-success">' + response.message + ' <a href="<?= base_url('/cart'); ?>">View</a></p>').show();
                     $('#error-message').hide();

@@ -36,7 +36,7 @@
                                 <?php endforeach; ?>
                             <?php else : ?>
                                 <tr>
-                                    <td colspan="6" class="text-center">Your cart is empty.</td>
+                                    <td colspan="6" class="text-center">Your Cart is Empty</td>
                                 </tr>
                             <?php endif; ?>
                         </tbody>
@@ -77,7 +77,7 @@
                             <div class="col-md-6 text-right">
                                 <strong class="text-black cart-total">$</strong>
                             </div>
-                        </div> 
+                        </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <button class="btn btn-primary btn-lg btn-block" onclick="window.location='<?= base_url('/checkout') ?>'">Proceed To Checkout</button>
@@ -140,18 +140,18 @@
 
     $(document).on('click', '.remove-btn', function(e) {
         e.preventDefault();
-        const cartId = $(this).data('id');
+        const productId = $(this).data('id'); 
 
         $.ajax({
-            url: '<?= base_url('cart/remove') ?>',
+            url: '<?= base_url('cart/remove') ?>/' + productId,
             type: 'POST',
             data: {
-                cart_id: cartId
+                product_id: productId
             },
             dataType: 'json',
             success: function(response) {
                 if (response.status === 'success') {
-                    $(`tr[data-id="${cartId}"]`).remove();
+                    $(`tr[data-id="${productId}"]`).remove(); 
                     updateCartTotals();
                 } else {
                     alert(response.message);
@@ -162,6 +162,7 @@
             }
         });
     });
+
 
     $(document).ready(function() {
         updateCartTotals();

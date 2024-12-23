@@ -113,7 +113,8 @@ class LoginController extends Controller
         $session = session();
         $session->destroy();
 
-        delete_cookie('user_email');
+        delete_cookie('user_id');
         return redirect()->to(base_url('/main'));
     }
 }
+?>

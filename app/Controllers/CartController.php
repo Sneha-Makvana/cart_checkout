@@ -20,36 +20,31 @@ class CartController extends Controller
     public function addToCart()
     {
         if ($this->request->isAJAX()) {
-            $session = session();
+            $session = session();   
             $productId = $this->request->getPost('product_id');
             $quantity = $this->request->getPost('quantity');
             $userId = 1;
 
             $productModel = new ProductModel();
+            $cartModel = new CartModel();
+
             $product = $productModel->find($productId);
 
             if ($product) {
-                $cartItems = $session->get('cart_items') ?? [];
+                $existingCartItem = $cartModel->where([
+                    'user_id' => $userId,
+                    'product_id' => $productId
+                ])->first();
 
-                if (isset($cartItems[$productId])) {
-                    $cartItems[$productId]['quantity'] += $quantity;
-                    $cartItems[$productId]['total_price'] = $cartItems[$productId]['quantity'] * $product['price'];
+                if ($existingCartItem) {
+                    $newQuantity = $existingCartItem['quantity'] + $quantity;
+                    $newTotalPrice = $newQuantity * $product['price'];
 
-                    $cartModel = new CartModel();
-                    $cartModel->update($productId, [
-                        'quantity' => $cartItems[$productId]['quantity'],
-                        'total_price' => $cartItems[$productId]['total_price']
+                    $cartModel->update($existingCartItem['id'], [
+                        'quantity' => $newQuantity,
+                        'total_price' => $newTotalPrice,
                     ]);
                 } else {
-                    $cartItems[$productId] = [
-                        'product_name' => $product['product_name'],
-                        'price' => $product['price'],
-                        'image' => $product['image'],
-                        'quantity' => $quantity,
-                        'total_price' => $product['price'] * $quantity,
-                    ];
-
-                    $cartModel = new CartModel();
                     $cartModel->insert([
                         'user_id' => $userId,
                         'product_id' => $productId,
@@ -59,6 +54,20 @@ class CartController extends Controller
                         'quantity' => $quantity,
                         'total_price' => $product['price'] * $quantity,
                     ]);
+                }
+
+                $cartItems = $session->get('cart_items') ?? [];
+                if (isset($cartItems[$productId])) {
+                    $cartItems[$productId]['quantity'] += $quantity;
+                    $cartItems[$productId]['total_price'] = $cartItems[$productId]['quantity'] * $product['price'];
+                } else {
+                    $cartItems[$productId] = [
+                        'product_name' => $product['product_name'],
+                        'price' => $product['price'],
+                        'image' => $product['image'],
+                        'quantity' => $quantity,
+                        'total_price' => $product['price'] * $quantity,
+                    ];
                 }
                 $session->set('cart_items', $cartItems);
 
@@ -73,6 +82,7 @@ class CartController extends Controller
                 ]);
             }
         }
+
         return $this->response->setJSON([
             'status' => 'error',
             'message' => 'Invalid request.',
@@ -127,7 +137,7 @@ class CartController extends Controller
     {
         if ($this->request->isAJAX()) {
             $session = session();
-            $productId = $this->request->getPost('id'); 
+            $productId = $this->request->getPost('id');
             $quantity = $this->request->getPost('quantity');
 
             $cartItems = $session->get('cart_items') ?? [];
@@ -163,18 +173,19 @@ class CartController extends Controller
         ]);
     }
 
-    public function removeFromCart()
+    public function removeFromCart($productId)
     {
         if ($this->request->isAJAX()) {
             $session = session();
-            $cartId = $this->request->getPost('cart_id');
-
             $cartItems = $session->get('cart_items') ?? [];
 
-            if (isset($cartItems[$cartId])) {
-                unset($cartItems[$cartId]);
+            if (isset($cartItems[$productId])) {
+                unset($cartItems[$productId]);
 
                 $session->set('cart_items', $cartItems);
+
+                $cartModel = new CartModel();
+                $cartModel->where('product_id', $productId)->delete();
 
                 return $this->response->setJSON([
                     'status' => 'success',

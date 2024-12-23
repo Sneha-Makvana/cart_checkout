@@ -27,7 +27,7 @@ $routes->post('/product/fetchProducts', 'productController::fetchProducts');
 $routes->get('/cart', 'CartController::view');
 $routes->post('cart/add', 'CartController::addToCart');
 $routes->post('cart/totals', 'CartController::getCartTotals');
-$routes->post('cart/remove', 'CartController::removeFromCart');
+$routes->post('cart/remove/(:num)', 'CartController::removeFromCart/$1');
 $routes->post('cart/count', 'CartController::getCartCount');
 $routes->post('cart/update', 'CartController::updateCartItem');
 
