@@ -6,7 +6,6 @@
 <?php endif; ?>
 
 <form action="" id="checkOutForm" method="POST" class="mt-5 mb-5 py-5">
-    
     <div class="site-section">
         <div class="container">
             <div class="row">
@@ -68,7 +67,7 @@
                             <textarea name="notes" id="notes" cols="30" rows="5" class="form-control" placeholder="Write your notes here..."></textarea>
                             <div class="error text-danger" id="notesError"></div>
                         </div>
-                        <input type="hidden" id="order_total" name="order_total" value=" ">
+                        <input type="hidden" id="order_total" name="order_total" value="">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -76,7 +75,7 @@
                         <div class="col-md-12">
                             <h2 class="h3 mb-3 text-black">Your Order</h2>
                             <div class="p-3 p-lg-5 border">
-                             
+
                                 <div class="border p-3 mb-3">
                                     <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank">Direct Bank Transfer</a></h3>
 
@@ -115,7 +114,6 @@
                     </div>
                 </div>
             </div>
-            <!-- </form> -->
         </div>
     </div>
 </form>
@@ -131,8 +129,8 @@
             dataType: 'json',
             success: function(response) {
                 if (response.status === 'success') {
-                    // $('#message').html('<p class="text-success">' + response.message + '</p>')
-                    alert('Order placed successfully!');
+                    $('#message').html('<p class="text-success">' + response.message + '</p>')
+                    // alert('Order placed successfully!');
                     window.location.href = '<?= base_url("/thankyou") ?>';
                 } else {
                     if (response.errors) {
@@ -140,9 +138,9 @@
                             $(`#${field}Error`).text(error);
                         });
                     } else {
-                        alert(response.message); 
+                        alert(response.message);
                     }
-                    $('#message').html('<p class="text-success">' + response.message + '</p>');
+                    // $('#message').html('<p class="text-success">' + response.message + '</p>');
                 }
             },
             error: function(xhr, status, error) {

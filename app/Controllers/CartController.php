@@ -36,7 +36,7 @@ class CartController extends Controller
                     $cartItems[$productId]['total_price'] = $cartItems[$productId]['quantity'] * $product['price'];
 
                     $cartModel = new CartModel();
-                    $cartModel->update($cartItems[$productId]['id'], [
+                    $cartModel->update($productId, [
                         'quantity' => $cartItems[$productId]['quantity'],
                         'total_price' => $cartItems[$productId]['total_price']
                     ]);
@@ -56,11 +56,10 @@ class CartController extends Controller
                         'product_name' => $product['product_name'],
                         'price' => $product['price'],
                         'image' => $product['image'],
-                        'qty' => $quantity,
+                        'quantity' => $quantity,
                         'total_price' => $product['price'] * $quantity,
                     ]);
                 }
-
                 $session->set('cart_items', $cartItems);
 
                 return $this->response->setJSON([
@@ -74,13 +73,11 @@ class CartController extends Controller
                 ]);
             }
         }
-
         return $this->response->setJSON([
             'status' => 'error',
             'message' => 'Invalid request.',
         ]);
     }
-
 
     public function getCartCount()
     {
@@ -130,21 +127,27 @@ class CartController extends Controller
     {
         if ($this->request->isAJAX()) {
             $session = session();
-            $cartId = $this->request->getPost('cart_id');
+            $productId = $this->request->getPost('id'); 
             $quantity = $this->request->getPost('quantity');
 
             $cartItems = $session->get('cart_items') ?? [];
 
-            if (isset($cartItems[$cartId])) {
-                $cartItems[$cartId]['quantity'] = $quantity;
-                $cartItems[$cartId]['total_price'] = $cartItems[$cartId]['quantity'] * $cartItems[$cartId]['price'];
+            if (isset($cartItems[$productId])) {
+                $cartItems[$productId]['quantity'] = $quantity;
+                $cartItems[$productId]['total_price'] = $cartItems[$productId]['quantity'] * $cartItems[$productId]['price'];
+
+                $cartModel = new CartModel();
+                $cartModel->update($productId, [
+                    'quantity' => $cartItems[$productId]['quantity'],
+                    'total_price' => $cartItems[$productId]['total_price']
+                ]);
 
                 $session->set('cart_items', $cartItems);
 
                 return $this->response->setJSON([
                     'status' => 'success',
                     'message' => 'Cart item updated.',
-                    'newTotalPrice' => $cartItems[$cartId]['total_price'],
+                    'newTotalPrice' => $cartItems[$productId]['total_price'],
                 ]);
             } else {
                 return $this->response->setJSON([

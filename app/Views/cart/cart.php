@@ -77,7 +77,7 @@
                             <div class="col-md-6 text-right">
                                 <strong class="text-black cart-total">$</strong>
                             </div>
-                        </div>
+                        </div> 
                         <div class="row">
                             <div class="col-md-12">
                                 <button class="btn btn-primary btn-lg btn-block" onclick="window.location='<?= base_url('/checkout') ?>'">Proceed To Checkout</button>

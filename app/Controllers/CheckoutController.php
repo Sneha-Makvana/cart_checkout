@@ -57,8 +57,6 @@ class CheckoutController extends Controller
         $formData = $this->request->getPost();
         $cartItems = $cartModel->where('user_id', session('user_id'))->findAll();
 
-
-
         try {
             $db = \Config\Database::connect();
             $db->transStart();
@@ -72,7 +70,7 @@ class CheckoutController extends Controller
             if ($db->transStatus() === false) {
                 throw new \Exception('Failed to place the order.');
             }
-
+            
             return $this->response->setJSON([
                 'status' => 'success',
                 'order_id' => $orderId,

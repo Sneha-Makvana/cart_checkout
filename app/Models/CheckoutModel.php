@@ -9,7 +9,7 @@ class CheckoutModel extends Model
     protected $table = 'orders';
     protected $primaryKey = 'id';
     protected $allowedFields = [
-        'fname', 'lname', 'address', 'email', 'phone', 'notes', 'city', 'total_amt'
+        'user_id','product_id','fname', 'lname', 'address', 'email', 'phone', 'notes', 'city', 'total_amt'
     ];
 
     public function insertOrder($orderData, $cartItems)
@@ -25,7 +25,7 @@ class CheckoutModel extends Model
             $orderItemsModel->insert([
                 'order_id' => $orderId,
                 'product_id' => $item['product_id'],
-                'qty' => $item['qty'], // Assuming 'qty' exists in the cart table
+                'quantity' => $item['quantity'],
             ]);
         }
     

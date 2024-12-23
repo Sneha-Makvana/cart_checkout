@@ -33,11 +33,9 @@ $routes->post('cart/update', 'CartController::updateCartItem');
 
 
 $routes->get('/checkout', 'CheckoutController::view');
-$routes->post('/checkout/process', 'CheckoutController::process'); 
+$routes->post('/checkout/process', 'CheckoutController::process');
 $routes->get('/thankyou', 'CheckoutController::display');
 
 
-$routes->get('/order/success', 'OrderController::success'); 
+$routes->get('/order/success', 'OrderController::success');
 $routes->get('/order/history', 'OrderController::history');
-
-
