@@ -9,7 +9,7 @@ class CheckoutModel extends Model
     protected $table = 'orders';
     protected $primaryKey = 'id';
     protected $allowedFields = [
-        'fname', 'lname', 'address', 'email', 'phone', 'notes', 'city', 'total_amt'
+        'fname', 'lname', 'address', 'email', 'phone', 'notes', 'city'
     ];
 
     public function insertOrder($orderData, $cartItems)

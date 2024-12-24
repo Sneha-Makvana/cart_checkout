@@ -3,10 +3,10 @@
 
 <div class="container mt-5 mb-5">
     <div class="row mb-5">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <input type="text" id="search-box" class="form-control" placeholder="Search products...">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <select id="category-filter" class="form-control">
                 <option value="">All Categories</option>
                 <option value="Women">Women</option>

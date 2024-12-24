@@ -14,7 +14,6 @@ class CheckoutController extends Controller
         if (!session()->get('is_logged_in')) {
             return redirect()->to(base_url('/login'));
         }
-
         return view('checkout/checkout');
     }
 
@@ -70,7 +69,7 @@ class CheckoutController extends Controller
             if ($db->transStatus() === false) {
                 throw new \Exception('Failed to place the order.');
             }
-            
+
             return $this->response->setJSON([
                 'status' => 'success',
                 'order_id' => $orderId,
@@ -91,4 +90,3 @@ class CheckoutController extends Controller
         }
     }
 }
-?>

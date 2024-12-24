@@ -20,7 +20,7 @@ class CartController extends Controller
     public function addToCart()
     {
         if ($this->request->isAJAX()) {
-            $session = session();   
+            $session = session();
             $productId = $this->request->getPost('product_id');
             $quantity = $this->request->getPost('quantity');
             $userId = 1;
@@ -137,7 +137,7 @@ class CartController extends Controller
     {
         if ($this->request->isAJAX()) {
             $session = session();
-            $productId = $this->request->getPost('id');
+            $productId = $this->request->getPost('cart_id');
             $quantity = $this->request->getPost('quantity');
 
             $cartItems = $session->get('cart_items') ?? [];
@@ -173,6 +173,7 @@ class CartController extends Controller
         ]);
     }
 
+
     public function removeFromCart($productId)
     {
         if ($this->request->isAJAX()) {
@@ -203,4 +204,8 @@ class CartController extends Controller
             'message' => 'Invalid request.',
         ]);
     }
+
+
 }
+
+

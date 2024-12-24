@@ -104,7 +104,7 @@
             },
             error: function() {
                 console.error('Error fetching cart totals.');
-            }
+            },
         });
     }
 
@@ -116,6 +116,7 @@
             alert('Quantity must be at least 1.');
             return;
         }
+
         $.ajax({
             url: '<?= base_url('cart/update') ?>',
             type: 'POST',
@@ -126,7 +127,9 @@
             dataType: 'json',
             success: function(response) {
                 if (response.status === 'success') {
+                    // Update total price for this item
                     $(`tr[data-id="${cartId}"] .product-total`).text(`$${response.newTotalPrice.toFixed(2)}`);
+                    // Update cart totals
                     updateCartTotals();
                 } else {
                     alert(response.message);
@@ -138,9 +141,10 @@
         });
     });
 
+
     $(document).on('click', '.remove-btn', function(e) {
         e.preventDefault();
-        const productId = $(this).data('id'); 
+        const productId = $(this).data('id');
 
         $.ajax({
             url: '<?= base_url('cart/remove') ?>/' + productId,
@@ -151,7 +155,7 @@
             dataType: 'json',
             success: function(response) {
                 if (response.status === 'success') {
-                    $(`tr[data-id="${productId}"]`).remove(); 
+                    $(`tr[data-id="${productId}"]`).remove();
                     updateCartTotals();
                 } else {
                     alert(response.message);
