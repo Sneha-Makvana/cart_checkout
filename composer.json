@@ -15,7 +15,8 @@
         "ext-mbstring": "*",
         "laminas/laminas-escaper": "^2.13",
         "paypal/rest-api-sdk-php": "^1.6",
-        "psr/log": "^3.0"
+        "psr/log": "^3.0",
+        "stripe/stripe-php": "^16.4"
     },
     "require-dev": {
         "codeigniter/coding-standard": "^1.7",

@@ -49,5 +49,13 @@ $routes->get('/thankyou', 'CheckoutController::display');
 $routes->post('paypal/create-payment', 'PayPalController::createPayment');
 $routes->get('paypal/execute-payment', 'PayPalController::executePayment');
 
+
+$routes->post('stripe/createCheckoutSession', 'StripeController::createCheckoutSession');
+$routes->get('success', 'StripeController::success');
+$routes->get('cancel', 'StripeController::cancel');
+$routes->post('stripe/webhook', 'StripeController::stripeWebhook');
+$routes->get('thankyou', 'StripeController::success');
+
+
 $routes->get('/order/success', 'OrderController::success');
 $routes->get('/order/history', 'OrderController::history');

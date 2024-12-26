@@ -1665,3 +1665,899 @@ WARNING - 2024-12-26 06:29:31 --> [DEPRECATED] Optional parameter $config declar
 INFO - 2024-12-26 06:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-26 06:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-26 06:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 06:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 07:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-26 08:16:19 --> Error: Call to a member function setHeader() on null
+[Method: POST, Route: stripe/createCheckoutSession]
+in APPPATH\Controllers\StripeController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\StripeController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 08:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 08:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 09:22:22 --> Cart items are empty or null.
+WARNING - 2024-12-26 09:22:22 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13500","currency":"USD"},"description":"Payment for Order #97"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 09:22:22 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13500","currency":"USD"},"description":"Payment for Order #97"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13500","currency":"USD"},"description":"Payment for Order #97"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 09:22:22 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13500","currency":"USD"},"description":"Payment for Order #97"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13500","currency":"USD"},"description":"Payment for Order #97"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13500","currency":"USD"},"description":"Payment for Order #97"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 09:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-26 09:36:12 --> BadMethodCallException: Call to undefined method App\Models\CheckoutModel::getLatestOrder
+[Method: POST, Route: stripe/createCheckoutSession]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\StripeController.php(33): CodeIgniter\Model->__call('getLatestOrder', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-26 09:36:22 --> BadMethodCallException: Call to undefined method App\Models\CheckoutModel::getLatestOrder
+[Method: POST, Route: stripe/createCheckoutSession]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\StripeController.php(33): CodeIgniter\Model->__call('getLatestOrder', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 09:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 09:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 10:13:43 --> Cart items are empty or null.
+WARNING - 2024-12-26 10:13:43 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"3610","currency":"USD"},"description":"Payment for Order #99"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 10:13:43 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"3610","currency":"USD"},"description":"Payment for Order #99"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"3610","currency":"USD"},"description":"Payment for Order #99"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 10:13:43 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"3610","currency":"USD"},"description":"Payment for Order #99"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"3610","currency":"USD"},"description":"Payment for Order #99"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"3610","currency":"USD"},"description":"Payment for Order #99"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 10:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 10:53:17 --> Cart items are empty or null.
+WARNING - 2024-12-26 10:53:17 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"5010","currency":"USD"},"description":"Payment for Order #100"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 10:53:17 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"5010","currency":"USD"},"description":"Payment for Order #100"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"5010","currency":"USD"},"description":"Payment for Order #100"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 10:53:17 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"5010","currency":"USD"},"description":"Payment for Order #100"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"5010","currency":"USD"},"description":"Payment for Order #100"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"5010","currency":"USD"},"description":"Payment for Order #100"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 10:53:43 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5WTLGY91Y663242G136102X', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5WTLGY91Y663242G136102X', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 10:53:43 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5WTLGY91Y663242G136102X', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5WTLGY91Y663242G136102X', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5WTLGY91Y663242G136102X', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 10:53:43 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5WTLGY91Y663242G136102X', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5WTLGY91Y663242G136102X', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5WTLGY91Y663242G136102X', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 10:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 10:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:05:27 --> Cart items are empty or null.
+INFO - 2024-12-26 11:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:12:07 --> Cart items are empty or null.
+INFO - 2024-12-26 11:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:19:30 --> Cart items are empty or null.
+INFO - 2024-12-26 11:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:26:54 --> Cart items are empty or null.
+INFO - 2024-12-26 11:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:28:05 --> Cart items are empty or null.
+INFO - 2024-12-26 11:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:33:41 --> Cart items are empty or null.
+INFO - 2024-12-26 11:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:55:51 --> Cart items are empty or null.
+ERROR - 2024-12-26 11:55:52 --> mysqli_sql_exception: Unknown column 'amount' in 'field list' in C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\app\Models\TransactionModel.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\app\Controllers\StripeController.php(66): App\Models\TransactionModel->insertTransaction(Array)
+#9 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+#10 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+#11 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-26 11:55:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'amount' in 'field list'
+[Method: POST, Route: stripe/createCheckoutSession]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :amount:, :currency:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\TransactionModel.php(41): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\StripeController.php(66): App\Models\TransactionModel->insertTransaction([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-26 11:55:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'amount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (109, \'cs_test_a15R8Y3TW4mnF9k5QN853oI2kDS26w45AWGmMYzsa54cqAe7i0lEOEwBmG\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:52\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (109, \'cs_test_a15R8Y3TW4mnF9k5QN853oI2kDS26w45AWGmMYzsa54cqAe7i0lEOEwBmG\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:52\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :amount:, :currency:, :created_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\TransactionModel.php(41): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\StripeController.php(66): App\Models\TransactionModel->insertTransaction([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-26 11:55:52 --> [Caused by] mysqli_sql_exception: Unknown column 'amount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (109, \'cs_test_a15R8Y3TW4mnF9k5QN853oI2kDS26w45AWGmMYzsa54cqAe7i0lEOEwBmG\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:52\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (109, \'cs_test_a15R8Y3TW4mnF9k5QN853oI2kDS26w45AWGmMYzsa54cqAe7i0lEOEwBmG\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:52\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (109, \'cs_test_a15R8Y3TW4mnF9k5QN853oI2kDS26w45AWGmMYzsa54cqAe7i0lEOEwBmG\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:52\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :amount:, :currency:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\TransactionModel.php(41): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\StripeController.php(66): App\Models\TransactionModel->insertTransaction([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 11:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:55:58 --> Cart items are empty or null.
+ERROR - 2024-12-26 11:55:59 --> mysqli_sql_exception: Unknown column 'amount' in 'field list' in C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\app\Models\TransactionModel.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\app\Controllers\StripeController.php(66): App\Models\TransactionModel->insertTransaction(Array)
+#9 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+#10 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+#11 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\sneha\codeigniter\cart_checkout\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-26 11:55:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'amount' in 'field list'
+[Method: POST, Route: stripe/createCheckoutSession]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :amount:, :currency:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\TransactionModel.php(41): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\StripeController.php(66): App\Models\TransactionModel->insertTransaction([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-26 11:55:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'amount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (110, \'cs_test_a1SGdcRjNTpB0fAdE7kw5TT5qWJDv1X0AtG6O6CsqugZSNhLfxq2OZt5sn\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:59\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (110, \'cs_test_a1SGdcRjNTpB0fAdE7kw5TT5qWJDv1X0AtG6O6CsqugZSNhLfxq2OZt5sn\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:59\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :amount:, :currency:, :created_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\TransactionModel.php(41): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\StripeController.php(66): App\Models\TransactionModel->insertTransaction([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-26 11:55:59 --> [Caused by] mysqli_sql_exception: Unknown column 'amount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (110, \'cs_test_a1SGdcRjNTpB0fAdE7kw5TT5qWJDv1X0AtG6O6CsqugZSNhLfxq2OZt5sn\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:59\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (110, \'cs_test_a1SGdcRjNTpB0fAdE7kw5TT5qWJDv1X0AtG6O6CsqugZSNhLfxq2OZt5sn\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:59\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (110, \'cs_test_a1SGdcRjNTpB0fAdE7kw5TT5qWJDv1X0AtG6O6CsqugZSNhLfxq2OZt5sn\', \'pending\', \'stripe\', \'500\', \'usd\', \'2024-12-26 11:55:59\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transactions` (`order_id`, `transaction_id`, `payment_status`, `payment_method`, `amount`, `currency`, `created_at`) VALUES (:order_id:, :transaction_id:, :payment_status:, :payment_method:, :amount:, :currency:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\TransactionModel.php(41): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\StripeController.php(66): App\Models\TransactionModel->insertTransaction([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->createCheckoutSession()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 11:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 11:56:47 --> Cart items are empty or null.
+INFO - 2024-12-26 11:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 11:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:04:14 --> Cart items are empty or null.
+INFO - 2024-12-26 12:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:13:36 --> Cart items are empty or null.
+INFO - 2024-12-26 12:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:18:35 --> Cart items are empty or null.
+WARNING - 2024-12-26 12:18:35 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1400","currency":"USD"},"description":"Payment for Order #114"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 12:18:35 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1400","currency":"USD"},"description":"Payment for Order #114"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1400","currency":"USD"},"description":"Payment for Order #114"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 12:18:35 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1400","currency":"USD"},"description":"Payment for Order #114"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1400","currency":"USD"},"description":"Payment for Order #114"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1400","currency":"USD"},"description":"Payment for Order #114"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 12:18:58 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5WUS7A5TT10180UN771271E', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5WUS7A5TT10180UN771271E', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 12:18:58 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5WUS7A5TT10180UN771271E', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5WUS7A5TT10180UN771271E', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5WUS7A5TT10180UN771271E', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-26 12:18:58 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5WUS7A5TT10180UN771271E', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5WUS7A5TT10180UN771271E', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5WUS7A5TT10180UN771271E', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 12:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:20:36 --> Cart items are empty or null.
+INFO - 2024-12-26 12:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:22:27 --> Cart items are empty or null.
+INFO - 2024-12-26 12:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:25:50 --> Cart items are empty or null.
+INFO - 2024-12-26 12:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:34:03 --> Cart items are empty or null.
+INFO - 2024-12-26 12:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:56:35 --> Cart items are empty or null.
+INFO - 2024-12-26 12:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 12:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 12:59:59 --> Cart items are empty or null.
+INFO - 2024-12-26 13:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 13:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 13:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 13:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 13:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 13:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 13:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 13:02:38 --> Cart items are empty or null.
+ERROR - 2024-12-26 13:03:05 --> Stripe error: No such checkout.session: {CHECKOUT_SESSION_ID}
+CRITICAL - 2024-12-26 13:03:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "payment_error.php"
+[Method: GET, Route: thankyou]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payment_error.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('payment_error', [], true)
+ 3 APPPATH\Controllers\StripeController.php(110): view('payment_error', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->success()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-26 13:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 13:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-26 13:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-26 13:07:43 --> Cart items are empty or null.
+INFO - 2024-12-26 13:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

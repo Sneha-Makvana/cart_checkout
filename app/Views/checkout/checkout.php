@@ -2,7 +2,8 @@
 <?= $this->section('content'); ?>
 
 <?php if (!session()->get('is_logged_in')) : ?>
-    <div class="alert alert-warning">You need to log in first to checkout. <a href="<?= base_url('/login'); ?>">Click here to log in</a></div>
+    <div class="alert alert-warning">You need to log in first to checkout. <a href="<?= base_url('/login'); ?>">Click here
+            to log in</a></div>
 <?php endif; ?>
 
 <form action="" id="checkOutForm" method="POST" class="mt-5 mb-5 py-5">
@@ -86,7 +87,9 @@
                                         <?php foreach ($cartItems as $item) : ?>
                                             <tr data-id="<?= $item['id'] ?>">
                                                 <td class="product-name"><?= $item['product_name'] ?></td>
-                                                <td class="product-total">$<?= number_format($item['price'] * $item['quantity'], 2) ?></td> <!-- Display the total amount per item -->
+                                                <td class="product-total">
+                                                    $<?= number_format($item['price'] * $item['quantity'], 2) ?></td>
+                                                <!-- Display the total amount per item -->
                                             </tr>
 
                                         <?php endforeach; ?>
@@ -98,40 +101,55 @@
 
                                         <tr>
                                             <td class="text-black font-weight-bold"><strong>Order Total</strong></td>
-                                            <td class="text-black font-weight-bold total_amt"><strong>$<?= number_format($orderTotal, 2) ?></strong></td>
+                                            <td class="text-black font-weight-bold total_amt">
+                                                <strong>$<?= number_format($orderTotal, 2) ?></strong>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
-
-                                <div class="border p-3 mb-3">
-                                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank">Direct Bank Transfer</a></h3>
-                                    <div class="collapse" id="collapsebank">
-                                        <div class="py-2">
-                                            <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
-                                        </div>
-                                    </div>
+                                <div class="border p-3 mb-2">
+                                    <h3 class="h6 mb-0">
+                                        <label class="text-danger">
+                                            <input type="radio" name="payment_method" value="stripe" id="stripe-button" class="mx-2"> Stripe
+                                        </label>
+                                    </h3>
                                 </div>
 
-                                <div class="border p-3 mb-3">
-                                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsecheque" role="button" aria-expanded="false" aria-controls="collapsecheque">Cheque Payment</a></h3>
+                                <div class="border p-3 mb-2">
+                                    <h3 class="h6 mb-0">
+                                        <label class="text-danger">
+                                            <input type="radio" name="payment_method" value="GooglePay" id="GooglePay-button" class="mx-2"> GooglePay
+                                        </label>
+                                    </h3>
+                                </div>
 
-                                    <div class="collapse" id="collapsecheque">
-                                        <div class="py-2">
-                                            <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
-                                        </div>
-                                    </div>
+                                <div class="border p-3 mb-2">
+                                    <h3 class="h6 mb-0">
+                                        <label class="text-danger">
+                                            <input type="radio" name="payment_method" value="Paytm" id="Paytm-button" class="mx-2"> Bank Transfer
+                                        </label>
+                                    </h3>
+                                </div>
+
+                                <div class="border p-3 mb-2">
+                                    <h3 class="h6 mb-0">
+                                        <label class="text-danger">
+                                            <input type="radio" name="payment_method" value="PhonePay" id="PhonePay-button" class="mx-2"> Credit/Debit Cards
+                                        </label>
+                                    </h3>
                                 </div>
 
                                 <div class="border p-3 mb-5">
                                     <h3 class="h6 mb-0">
-                                        <label>
-                                            <input type="radio" name="payment_method" value="paypal" id="paypal-button"> PayPal
+                                        <label class="text-danger">
+                                            <input type="radio" name="payment_method" value="paypal" id="paypal-button" class="mx-2"> PayPal
                                         </label>
                                     </h3>
                                 </div>
                                 <div class="form-group">
                                     <button class="btn btn-primary btn-lg btn-block" type="button" id="submitCheckout">Place Order</button>
                                 </div>
+                                <button type="button" id="stripeCheckoutButton" class="btn btn-primary btn-lg btn-block" style="display:none;">Pay with Stripe</button>
                                 <div id="message"></div>
                             </div>
                         </div>
@@ -145,52 +163,57 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $('#submitCheckout').on('click', function() {
-        const formData = $('#checkOutForm').serialize();
+        const formData = $('#checkOutForm').serialize(); // Serialize form data
+        const paymentMethod = $('input[name="payment_method"]:checked').val(); // Get selected payment method
 
-        const paymentMethod = $('input[name="payment_method"]:checked').val();
+        if (!paymentMethod) {
+            alert('Please select a payment method.');
+            return;
+        }
 
-        if (paymentMethod === 'paypal') {
-            $.ajax({
-                url: '<?= base_url("paypal/create-payment") ?>',
-                type: 'POST',
-                data: formData,
-                dataType: 'json',
-                success: function(response) {
-                    if (response.status === 'success') {
+        // Determine the payment URL based on the selected method
+        let paymentUrl = '';
+        if (paymentMethod === 'stripe') {
+            paymentUrl = '<?= base_url("stripe/createCheckoutSession") ?>';
+        } else if (paymentMethod === 'paypal') {
+            paymentUrl = '<?= base_url("paypal/create-payment") ?>';
+        } else {
+            paymentUrl = '<?= base_url("checkout/process") ?>'; // Generic URL for other payment methods
+        }
+
+        // AJAX request to process the order
+        $.ajax({
+            url: paymentUrl,
+            type: 'POST',
+            data: formData,
+            dataType: 'json',
+            success: function(response) {
+                if (response.status === 'success') {
+                    if (paymentMethod === 'stripe' || paymentMethod === 'paypal') {
+                        // Redirect to the respective payment page
                         window.location.href = response.redirect_url;
                     } else {
-                        alert(response.message || 'An error occurred during PayPal payment initialization.');
-                    }
-                },
-                error: function(xhr, status, error) {
-                    console.error('AJAX Error: ', error);
-                    alert('Error processing payment');
-                }
-            });
-        } else {
-            $.ajax({
-                url: '<?= base_url("checkout/process") ?>',
-                type: 'POST',
-                data: formData,
-                dataType: 'json',
-                success: function(response) {
-                    if (response.status === 'success') {
+                        // For other payment methods, show a success message and redirect
                         $('#message').html('<p class="text-success">' + response.message + '</p>');
-                        window.location.href = '<?= base_url("/thankyou") ?>';
-                    } else if (response.status === 'error' && response.errors) {
-                        $.each(response.errors, function(field, error) {
-                            $(`#${field}Error`).text(error);
-                        });
-                    } else {
-                        alert(response.message || 'An unexpected error occurred');
+                        setTimeout(function() {
+                            window.location.href = '<?= base_url("/thankyou") ?>';
+                        }, 1000); // Redirect after 2 seconds
                     }
-                },
-                error: function(xhr, status, error) {
-                    console.error('AJAX Error: ', error);
-                    alert('An error occurred while processing your request.');
+                } else if (response.status === 'error' && response.errors) {
+                    // Display validation errors
+                    $.each(response.errors, function(field, error) {
+                        $(`#${field}Error`).text(error);
+                    });
+                } else {
+                    // Generic error handling
+                    alert(response.message || 'An unexpected error occurred.');
                 }
-            });
-        }
+            },
+            error: function(xhr, status, error) {
+                console.error('AJAX Error:', error);
+                alert('An error occurred while processing your request.');
+            }
+        });
     });
 </script>
 
