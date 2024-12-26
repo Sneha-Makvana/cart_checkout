@@ -127,9 +127,7 @@
             dataType: 'json',
             success: function(response) {
                 if (response.status === 'success') {
-                    // Update total price for this item
                     $(`tr[data-id="${cartId}"] .product-total`).text(`$${response.newTotalPrice.toFixed(2)}`);
-                    // Update cart totals
                     updateCartTotals();
                 } else {
                     alert(response.message);

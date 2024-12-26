@@ -23,7 +23,6 @@
                                 <option value="India">India</option>
                             </select>
                             <div class="error text-danger" id="cityError"></div>
-
                         </div>
                         <div class="form-group row">
                             <div class="col-md-6">
@@ -67,18 +66,45 @@
                             <textarea name="notes" id="notes" cols="30" rows="5" class="form-control" placeholder="Write your notes here..."></textarea>
                             <div class="error text-danger" id="notesError"></div>
                         </div>
-                        <input type="hidden" id="order_total" name="order_total" value="">
+                        <input type="hidden" id="order_total" name="order_total" value="<?= $orderTotal ?>">
                     </div>
                 </div>
+
                 <div class="col-md-6">
                     <div class="row mb-5">
                         <div class="col-md-12">
                             <h2 class="h3 mb-3 text-black">Your Order</h2>
                             <div class="p-3 p-lg-5 border">
+                                <table class="table site-block-order-table mb-5">
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php foreach ($cartItems as $item) : ?>
+                                            <tr data-id="<?= $item['id'] ?>">
+                                                <td class="product-name"><?= $item['product_name'] ?></td>
+                                                <td class="product-total">$<?= number_format($item['price'] * $item['quantity'], 2) ?></td> <!-- Display the total amount per item -->
+                                            </tr>
+
+                                        <?php endforeach; ?>
+
+                                        <tr>
+                                            <td class="text-black font-weight-bold"><strong>Cart Subtotal</strong></td>
+                                            <td class="text-black">$<?= number_format($subtotal, 2) ?></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="text-black font-weight-bold"><strong>Order Total</strong></td>
+                                            <td class="text-black font-weight-bold total_amt"><strong>$<?= number_format($orderTotal, 2) ?></strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
                                 <div class="border p-3 mb-3">
                                     <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank">Direct Bank Transfer</a></h3>
-
                                     <div class="collapse" id="collapsebank">
                                         <div class="py-2">
                                             <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
@@ -95,16 +121,14 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="border p-3 mb-5">
-                                    <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsepaypal" role="button" aria-expanded="false" aria-controls="collapsepaypal">Paypal</a></h3>
-
-                                    <div class="collapse" id="collapsepaypal">
-                                        <div class="py-2">
-                                            <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
-                                        </div>
-                                    </div>
+                                    <h3 class="h6 mb-0">
+                                        <label>
+                                            <input type="radio" name="payment_method" value="paypal" id="paypal-button"> PayPal
+                                        </label>
+                                    </h3>
                                 </div>
-
                                 <div class="form-group">
                                     <button class="btn btn-primary btn-lg btn-block" type="button" id="submitCheckout">Place Order</button>
                                 </div>
@@ -117,37 +141,56 @@
         </div>
     </div>
 </form>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $('#submitCheckout').on('click', function() {
         const formData = $('#checkOutForm').serialize();
 
-        $.ajax({
-            url: '<?= base_url("checkout/process") ?>',
-            type: 'POST',
-            data: formData,
-            dataType: 'json',
-            success: function(response) {
-                if (response.status === 'success') {
-                    $('#message').html('<p class="text-success">' + response.message + '</p>')
-                    // alert('Order placed successfully!');
-                    window.location.href = '<?= base_url("/thankyou") ?>';
-                } else {
-                    if (response.errors) {
+        const paymentMethod = $('input[name="payment_method"]:checked').val();
+
+        if (paymentMethod === 'paypal') {
+            $.ajax({
+                url: '<?= base_url("paypal/create-payment") ?>',
+                type: 'POST',
+                data: formData,
+                dataType: 'json',
+                success: function(response) {
+                    if (response.status === 'success') {
+                        window.location.href = response.redirect_url;
+                    } else {
+                        alert(response.message || 'An error occurred during PayPal payment initialization.');
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error('AJAX Error: ', error);
+                    alert('Error processing payment');
+                }
+            });
+        } else {
+            $.ajax({
+                url: '<?= base_url("checkout/process") ?>',
+                type: 'POST',
+                data: formData,
+                dataType: 'json',
+                success: function(response) {
+                    if (response.status === 'success') {
+                        $('#message').html('<p class="text-success">' + response.message + '</p>');
+                        window.location.href = '<?= base_url("/thankyou") ?>';
+                    } else if (response.status === 'error' && response.errors) {
                         $.each(response.errors, function(field, error) {
                             $(`#${field}Error`).text(error);
                         });
                     } else {
-                        alert(response.message);
+                        alert(response.message || 'An unexpected error occurred');
                     }
-                    // $('#message').html('<p class="text-success">' + response.message + '</p>');
+                },
+                error: function(xhr, status, error) {
+                    console.error('AJAX Error: ', error);
+                    alert('An error occurred while processing your request.');
                 }
-            },
-            error: function(xhr, status, error) {
-                console.error('AJAX Error: ', error);
-                alert('An error occurred while processing your request.');
-            }
-        });
+            });
+        }
     });
 </script>
 

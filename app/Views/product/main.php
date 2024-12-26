@@ -38,14 +38,13 @@
                 <img src="<?= base_url('public/assets/images/model_3.png') ?>" alt="Image" class="img-fluid">
             </div>
         </div>
-    </div>  
+    </div>
 </div>
 
 <div class="container">
     <div class="row">
         <div class="title-section mb-5 col-12 text-center">
             <h2 class="text-uppercase">Popular Products</h2>
-            <p class="text-muted">Browse our top-rated products below</p>
         </div>
     </div>
     <div class="row">

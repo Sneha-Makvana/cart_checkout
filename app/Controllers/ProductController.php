@@ -51,6 +51,7 @@ class ProductController extends Controller
             $search = $this->request->getPost('search') ?? '';
             $category = $this->request->getPost('category') ?? '';
             $page = (int)($this->request->getPost('page') ?? 1);
+
             $perPage = 3;
             $offset = ($page - 1) * $perPage;
 
