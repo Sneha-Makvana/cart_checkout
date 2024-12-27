@@ -163,7 +163,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $('#submitCheckout').on('click', function() {
-        const formData = $('#checkOutForm').serialize(); // Serialize form data
+        const formData = $('#checkOutForm').serialize();
         const paymentMethod = $('input[name="payment_method"]:checked').val(); // Get selected payment method
 
         if (!paymentMethod) {
@@ -171,17 +171,15 @@
             return;
         }
 
-        // Determine the payment URL based on the selected method
         let paymentUrl = '';
         if (paymentMethod === 'stripe') {
             paymentUrl = '<?= base_url("stripe/createCheckoutSession") ?>';
         } else if (paymentMethod === 'paypal') {
             paymentUrl = '<?= base_url("paypal/create-payment") ?>';
         } else {
-            paymentUrl = '<?= base_url("checkout/process") ?>'; // Generic URL for other payment methods
+            paymentUrl = '<?= base_url("checkout/process") ?>';
         }
 
-        // AJAX request to process the order
         $.ajax({
             url: paymentUrl,
             type: 'POST',
@@ -190,22 +188,18 @@
             success: function(response) {
                 if (response.status === 'success') {
                     if (paymentMethod === 'stripe' || paymentMethod === 'paypal') {
-                        // Redirect to the respective payment page
                         window.location.href = response.redirect_url;
                     } else {
-                        // For other payment methods, show a success message and redirect
                         $('#message').html('<p class="text-success">' + response.message + '</p>');
                         setTimeout(function() {
                             window.location.href = '<?= base_url("/thankyou") ?>';
                         }, 1000); // Redirect after 2 seconds
                     }
                 } else if (response.status === 'error' && response.errors) {
-                    // Display validation errors
                     $.each(response.errors, function(field, error) {
                         $(`#${field}Error`).text(error);
                     });
                 } else {
-                    // Generic error handling
                     alert(response.message || 'An unexpected error occurred.');
                 }
             },

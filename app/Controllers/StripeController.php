@@ -49,7 +49,7 @@ class StripeController extends Controller
                     'quantity' => 1,
                 ]],
                 'mode' => 'payment',
-                'success_url' => base_url('/thankyou?session_id={CHECKOUT_SESSION_ID}&order_id=' . $orderId),
+                'success_url' => base_url('/success') . '?session_id={CHECKOUT_SESSION_ID}&order_id=' . $orderId,
                 'cancel_url' => base_url('cart'),
             ]);
 
@@ -76,15 +76,16 @@ class StripeController extends Controller
     {
         $sessionId = $this->request->getGet('session_id');
         $orderId = $this->request->getGet('order_id');
-
         if (!$sessionId || !$orderId) {
             return view('payment_error', ['message' => 'Invalid session or order ID']);
         }
 
         \Stripe\Stripe::setApiKey($this->stripeConfig->stripeSecretKey);
+        $session = \Stripe\Checkout\Session::retrieve($sessionId);
 
         try {
-            $session = \Stripe\Checkout\Session::retrieve($sessionId);
+            // $session = \Stripe\Checkout\Session::retrieve($sessionId);   
+            $paymentIntentId = $session->payment_intent; 
 
             if ($session->payment_status === 'paid') {
                 $transactionModel = new TransactionModel();
@@ -93,9 +94,9 @@ class StripeController extends Controller
                 if ($transaction) {
                     $updateResult = $transactionModel->updateStatus($sessionId, [
                         'payment_status' => 'completed',
+                        'transaction_id' => $paymentIntentId,
                         'updated_at' => date('Y-m-d H:i:s'),
                     ]);
-
                     if (!$updateResult) {
                         log_message('error', 'Failed to update payment status for sessionId: ' . $sessionId);
                     }
@@ -109,6 +110,7 @@ class StripeController extends Controller
             log_message('error', 'Stripe error: ' . $e->getMessage());
             return view('payment_error', ['message' => 'An error occurred while verifying payment']);
         }
+        return view('/success', ['session_id' => $sessionId, 'order_id' => $orderId]);
     }
 
     public function getCartItems()

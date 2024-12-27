@@ -1,0 +1,1257 @@
+INFO - 2024-12-27 04:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 04:37:44 --> Cart items are empty or null.
+ERROR - 2024-12-27 04:38:17 --> Stripe error: No such checkout.session: {CHECKOUT_SESSION_ID}
+CRITICAL - 2024-12-27 04:38:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "payment_error.php"
+[Method: GET, Route: payment_success]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payment_error.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('payment_error', [], true)
+ 3 APPPATH\Controllers\StripeController.php(110): view('payment_error', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->success()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-27 04:45:54 --> Stripe error: No such checkout.session: {CHECKOUT_SESSION_ID}
+INFO - 2024-12-27 04:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 04:46:17 --> Cart items are empty or null.
+ERROR - 2024-12-27 04:46:57 --> Stripe error: No such checkout.session: {CHECKOUT_SESSION_ID}
+CRITICAL - 2024-12-27 04:59:02 --> Stripe\Exception\InvalidRequestException: No such checkout.session: {CHECKOUT_SESSION_ID}
+[Method: GET, Route: payment_success]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('No such checkout.session: {CHECKOUT_SESSION_ID}', 404, '{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_51L7jTnAMj9w59?t=1735275489",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'resource_missing')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(230): Stripe\Exception\InvalidRequestException::factory('No such checkout.session: {CHECKOUT_SESSION_ID}', 404, '{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_51L7jTnAMj9w59?t=1735275489",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'resource_missing', null)
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(191): Stripe\ApiRequestor::_specificV1APIError('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_51L7jTnAMj9w59?t=1735275489",
+    "type": "invalid_request_error"
+  }
+}
+', 404, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(637): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_51L7jTnAMj9w59?t=1735275489",
+    "type": "invalid_request_error"
+  }
+}
+', 404, Object(Stripe\Util\CaseInsensitiveArray), [...], 'v1')
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(136): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_51L7jTnAMj9w59?t=1735275489",
+    "type": "invalid_request_error"
+  }
+}
+', 404, Object(Stripe\Util\CaseInsensitiveArray), 'v1')
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiResource.php(63): Stripe\ApiRequestor->request('get', '/v1/checkout/sessions/%7BCHECKOUT_SESSION_ID%7D', [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Checkout\Session.php(173): Stripe\ApiResource->refresh()
+ 8 APPPATH\Controllers\StripeController.php(84): Stripe\Checkout\Session::retrieve('{CHECKOUT_SESSION_ID}')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->success()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 05:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:00:17 --> Cart items are empty or null.
+CRITICAL - 2024-12-27 05:00:43 --> Stripe\Exception\InvalidRequestException: No such checkout.session: {CHECKOUT_SESSION_ID}
+[Method: GET, Route: payment_success]
+in FCPATH\vendor\stripe\stripe-php\lib\Exception\ApiErrorException.php on line 38.
+ 1 FCPATH\vendor\stripe\stripe-php\lib\Exception\InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('No such checkout.session: {CHECKOUT_SESSION_ID}', 404, '{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_N98oWP0gaitJ2y?t=1735275590",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'resource_missing')
+ 2 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(230): Stripe\Exception\InvalidRequestException::factory('No such checkout.session: {CHECKOUT_SESSION_ID}', 404, '{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_N98oWP0gaitJ2y?t=1735275590",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'resource_missing', null)
+ 3 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(191): Stripe\ApiRequestor::_specificV1APIError('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_N98oWP0gaitJ2y?t=1735275590",
+    "type": "invalid_request_error"
+  }
+}
+', 404, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(637): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_N98oWP0gaitJ2y?t=1735275590",
+    "type": "invalid_request_error"
+  }
+}
+', 404, Object(Stripe\Util\CaseInsensitiveArray), [...], 'v1')
+ 5 FCPATH\vendor\stripe\stripe-php\lib\ApiRequestor.php(136): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "resource_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/resource-missing",
+    "message": "No such checkout.session: {CHECKOUT_SESSION_ID}",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_N98oWP0gaitJ2y?t=1735275590",
+    "type": "invalid_request_error"
+  }
+}
+', 404, Object(Stripe\Util\CaseInsensitiveArray), 'v1')
+ 6 FCPATH\vendor\stripe\stripe-php\lib\ApiResource.php(63): Stripe\ApiRequestor->request('get', '/v1/checkout/sessions/%7BCHECKOUT_SESSION_ID%7D', [], [])
+ 7 FCPATH\vendor\stripe\stripe-php\lib\Checkout\Session.php(173): Stripe\ApiResource->refresh()
+ 8 APPPATH\Controllers\StripeController.php(84): Stripe\Checkout\Session::retrieve('{CHECKOUT_SESSION_ID}')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StripeController->success()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripeController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 05:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:05:48 --> Cart items are empty or null.
+INFO - 2024-12-27 05:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:05:50 --> Cart items are empty or null.
+INFO - 2024-12-27 05:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:10:34 --> Cart items are empty or null.
+INFO - 2024-12-27 05:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:16:42 --> Cart items are empty or null.
+INFO - 2024-12-27 05:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:22:56 --> Cart items are empty or null.
+INFO - 2024-12-27 05:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:35:56 --> Cart items are empty or null.
+WARNING - 2024-12-27 05:35:56 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #131"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:35:56 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #131"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #131"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:35:56 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #131"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #131"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #131"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 05:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:38:22 --> Cart items are empty or null.
+WARNING - 2024-12-27 05:38:22 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #132"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:38:22 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #132"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #132"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:38:22 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #132"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #132"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #132"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:38:32 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD2NI09B14013608756251', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:38:32 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD2NI09B14013608756251', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:38:32 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD2NI09B14013608756251', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 05:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 05:38:48 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD2NI09B14013608756251', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:38:48 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD2NI09B14013608756251', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:38:48 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD2NI09B14013608756251', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD2NI09B14013608756251', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-27 05:38:51 --> PayPal API Error: {"name":"PAYMENT_ALREADY_DONE","message":"Payment has been done already for this cart.","information_link":"https://developer.paypal.com/docs/api/payments/v1/#error-PAYMENT_ALREADY_DONE","debug_id":"dcc336eb1e7a1"}
+INFO - 2024-12-27 05:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:41:47 --> Cart items are empty or null.
+WARNING - 2024-12-27 05:41:47 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #133"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:41:47 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #133"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #133"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:41:47 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #133"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #133"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"850","currency":"USD"},"description":"Payment for Order #133"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 05:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:47:00 --> Cart items are empty or null.
+WARNING - 2024-12-27 05:47:00 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"0","currency":"USD"},"description":"Payment for Order #134"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:47:00 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"0","currency":"USD"},"description":"Payment for Order #134"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"0","currency":"USD"},"description":"Payment for Order #134"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:47:00 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"0","currency":"USD"},"description":"Payment for Order #134"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"0","currency":"USD"},"description":"Payment for Order #134"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"0","currency":"USD"},"description":"Payment for Order #134"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-27 05:47:02 --> PayPal API Error: {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/v1/#error-VALIDATION_ERROR","debug_id":"d2b1e94c5163a"}
+INFO - 2024-12-27 05:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 05:47:39 --> Cart items are empty or null.
+WARNING - 2024-12-27 05:47:39 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"900","currency":"USD"},"description":"Payment for Order #135"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:47:39 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"900","currency":"USD"},"description":"Payment for Order #135"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"900","currency":"USD"},"description":"Payment for Order #135"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:47:39 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"900","currency":"USD"},"description":"Payment for Order #135"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"900","currency":"USD"},"description":"Payment for Order #135"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"900","currency":"USD"},"description":"Payment for Order #135"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:47:49 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD6WA3YD77178KS4531333', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD6WA3YD77178KS4531333', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:47:49 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XD6WA3YD77178KS4531333', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD6WA3YD77178KS4531333', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD6WA3YD77178KS4531333', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 05:47:49 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XD6WA3YD77178KS4531333', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XD6WA3YD77178KS4531333', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XD6WA3YD77178KS4531333', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 05:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 05:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 06:04:15 --> Cart items are empty or null.
+WARNING - 2024-12-27 06:04:15 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1650","currency":"USD"},"description":"Payment for Order #136"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:04:15 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1650","currency":"USD"},"description":"Payment for Order #136"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1650","currency":"USD"},"description":"Payment for Order #136"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:04:15 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1650","currency":"USD"},"description":"Payment for Order #136"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1650","currency":"USD"},"description":"Payment for Order #136"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"1650","currency":"USD"},"description":"Payment for Order #136"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:04:42 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEGKA8UB91046VT0966236', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(93): PayPal\Api\Payment::get('PAYID-M5XEGKA8UB91046VT0966236', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:04:42 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEGKA8UB91046VT0966236', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEGKA8UB91046VT0966236', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(93): PayPal\Api\Payment::get('PAYID-M5XEGKA8UB91046VT0966236', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:04:42 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEGKA8UB91046VT0966236', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEGKA8UB91046VT0966236', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(93): PayPal\Api\Payment::get('PAYID-M5XEGKA8UB91046VT0966236', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 06:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 06:12:20 --> Cart items are empty or null.
+WARNING - 2024-12-27 06:12:20 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #137"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:12:20 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #137"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #137"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:12:20 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #137"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #137"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #137"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:12:37 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(99): PayPal\Api\Payment::get('PAYID-M5XEKAY5RK3153463807972P', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:12:37 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(99): PayPal\Api\Payment::get('PAYID-M5XEKAY5RK3153463807972P', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:12:37 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(99): PayPal\Api\Payment::get('PAYID-M5XEKAY5RK3153463807972P', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 06:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 06:15:48 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEKAY5RK3153463807972P', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:15:48 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEKAY5RK3153463807972P', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:15:48 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEKAY5RK3153463807972P', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEKAY5RK3153463807972P', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-27 06:15:51 --> PayPal API Error: {"name":"PAYMENT_ALREADY_DONE","message":"Payment has been done already for this cart.","information_link":"https://developer.paypal.com/docs/api/payments/v1/#error-PAYMENT_ALREADY_DONE","debug_id":"c9e6928fd451f"}
+INFO - 2024-12-27 06:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 06:15:23 --> Cart items are empty or null.
+WARNING - 2024-12-27 06:15:23 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #138"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:15:23 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #138"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #138"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:15:23 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #138"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #138"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"2150","currency":"USD"},"description":"Payment for Order #138"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:15:34 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEL7I80U48825L6484873V', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEL7I80U48825L6484873V', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:15:34 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEL7I80U48825L6484873V', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEL7I80U48825L6484873V', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEL7I80U48825L6484873V', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:15:34 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEL7I80U48825L6484873V', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEL7I80U48825L6484873V', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEL7I80U48825L6484873V', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 06:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 06:19:03 --> Cart items are empty or null.
+WARNING - 2024-12-27 06:19:03 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #139"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:19:03 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #139"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #139"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:19:03 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #139"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #139"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #139"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 06:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 06:19:05 --> Cart items are empty or null.
+WARNING - 2024-12-27 06:19:05 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #140"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:19:05 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #140"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #140"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:19:05 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #140"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #140"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12150","currency":"USD"},"description":"Payment for Order #140"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:19:20 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XENVA51S93358B7272034K', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(106): PayPal\Api\Payment::get('PAYID-M5XENVA51S93358B7272034K', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:19:20 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XENVA51S93358B7272034K', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XENVA51S93358B7272034K', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(106): PayPal\Api\Payment::get('PAYID-M5XENVA51S93358B7272034K', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:19:20 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XENVA51S93358B7272034K', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XENVA51S93358B7272034K', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(106): PayPal\Api\Payment::get('PAYID-M5XENVA51S93358B7272034K', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 06:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 06:23:08 --> Cart items are empty or null.
+WARNING - 2024-12-27 06:23:08 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12650","currency":"USD"},"description":"Payment for Order #141"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:23:08 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12650","currency":"USD"},"description":"Payment for Order #141"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12650","currency":"USD"},"description":"Payment for Order #141"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:23:08 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12650","currency":"USD"},"description":"Payment for Order #141"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12650","currency":"USD"},"description":"Payment for Order #141"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"12650","currency":"USD"},"description":"Payment for Order #141"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(44): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:23:28 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEPRA0F852978FK742430S', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XEPRA0F852978FK742430S', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:23:28 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEPRA0F852978FK742430S', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEPRA0F852978FK742430S', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XEPRA0F852978FK742430S', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:23:28 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEPRA0F852978FK742430S', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEPRA0F852978FK742430S', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(88): PayPal\Api\Payment::get('PAYID-M5XEPRA0F852978FK742430S', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 06:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 06:30:23 --> Cart items are empty or null.
+INFO - 2024-12-27 06:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-27 06:42:00 --> Cart items are empty or null.
+WARNING - 2024-12-27 06:42:00 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13550","currency":"USD"},"description":"Payment for Order #143"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(51): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:42:00 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13550","currency":"USD"},"description":"Payment for Order #143"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13550","currency":"USD"},"description":"Payment for Order #143"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(51): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:42:00 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13550","currency":"USD"},"description":"Payment for Order #143"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13550","currency":"USD"},"description":"Payment for Order #143"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(573): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment', 'POST', '{"intent":"sale","payer":{"payment_method":"paypal"},"transactions":[{"amount":{"total":"13550","currency":"USD"},"description":"Payment for Order #143"}],"redirect_urls":{"return_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=true","cancel_url":"http://localhost/sneha/codeigniter/cart_checkout/paypal/execute-payment?success=false"}}', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(51): PayPal\Api\Payment->create(Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->createPayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:42:20 --> [DEPRECATED] Optional parameter $handlers declared before required parameter $method is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php on line 53.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(99): Composer\Autoload\ClassLoader->loadClass('PayPal\\Transport\\PayPalRestCall')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEYMA0BS977986K852823X', 'GET', '', null, Object(PayPal\Rest\ApiContext), null)
+ 5 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEYMA0BS977986K852823X', Object(PayPal\Rest\ApiContext))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:42:20 --> [DEPRECATED] Optional parameter $configs declared before required parameter $prefix is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConfig.php on line 286.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(57): Composer\Autoload\ClassLoader->loadClass('PayPal\\Core\\PayPalHttpConfig')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEYMA0BS977986K852823X', 'GET', '', null)
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEYMA0BS977986K852823X', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 6 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEYMA0BS977986K852823X', Object(PayPal\Rest\ApiContext))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-12-27 06:42:20 --> [DEPRECATED] Optional parameter $config declared before required parameter $tokenExpiresIn is implicitly treated as a required parameter in FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Cache\AuthorizationCache.php on line 54.
+ 1 FCPATH\vendor\composer\ClassLoader.php(576): include('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\system\\Debug\\Exceptions.php')
+ 2 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\sneha\\codeigniter\\cart_checkout\\vendor\\composer/../paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php')
+ 3 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Auth\OAuthTokenCredential.php(133): Composer\Autoload\ClassLoader->loadClass('PayPal\\Cache\\AuthorizationCache')
+ 4 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Handler\RestHandler.php(83): PayPal\Auth\OAuthTokenCredential->getAccessToken([...])
+ 5 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php(71): PayPal\Handler\RestHandler->handle(Object(PayPal\Core\PayPalHttpConfig), '', [...])
+ 6 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php(102): PayPal\Transport\PayPalRestCall->execute([...], '/v1/payments/payment/PAYID-M5XEYMA0BS977986K852823X', 'GET', '', [])
+ 7 FCPATH\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php(597): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/payment/PAYID-M5XEYMA0BS977986K852823X', 'GET', '', null, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+ 8 APPPATH\Controllers\PayPalController.php(103): PayPal\Api\Payment::get('PAYID-M5XEYMA0BS977986K852823X', Object(PayPal\Rest\ApiContext))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PayPalController->executePayment()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PayPalController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 06:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 06:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

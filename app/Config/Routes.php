@@ -54,7 +54,7 @@ $routes->post('stripe/createCheckoutSession', 'StripeController::createCheckoutS
 $routes->get('success', 'StripeController::success');
 $routes->get('cancel', 'StripeController::cancel');
 $routes->post('stripe/webhook', 'StripeController::stripeWebhook');
-$routes->get('thankyou', 'StripeController::success');
+$routes->get('success', 'StripeController::success');
 
 
 $routes->get('/order/success', 'OrderController::success');

@@ -94,17 +94,22 @@ class PayPalController extends BaseController
 
             // log_message('debug', 'Payment executed: ' . print_r($result, true));
 
-       
+
+            $transactionDetails = $result->getTransactions()[0];
+            $relatedResources = $transactionDetails->getRelatedResources();
+            $sale = $relatedResources[0]->getSale();
+            $transactionId = $sale->getId(); // This is the PayPal transaction ID
+            
             $transactionModel = new TransactionModel();
             $updateResult = $transactionModel->updateStatus($paymentId, [
                 'payment_status' => 'completed',
-                'transaction_id' => $payment->getId(),
+                'transaction_id' => $transactionId,
             ]);
-            
+
             if (!$updateResult) {
                 log_message('error', 'Failed to update payment status for paymentId: ' . $paymentId);
             }
-                
+
             return view('paypal/success', ['payment' => $result]);
         } catch (\PayPal\Exception\PayPalConnectionException $ex) {
             log_message('error', 'PayPal API Error: ' . $ex->getData());
@@ -119,9 +124,12 @@ class PayPalController extends BaseController
 
             log_message('error', 'General Error: ' . $ex->getMessage());
 
+
+
             $transactionModel = new TransactionModel();
             $transactionModel->updateStatus($paymentId, [
                 'payment_status' => 'failed',
+
             ]);
 
             return view('paypal/cancel', ['error' => $ex->getMessage()]);
